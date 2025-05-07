@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "Test"
+annotations:
+  'backstage.io/kubernetes-namespace': backstage
 spec:
   type: service
   owner: user:guest
