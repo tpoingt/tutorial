@@ -5,7 +5,7 @@ metadata:
   annotations:
     'backstage.io/kubernetes-namespace': backstage
     'backstage.io/kubernetes-label-selector': 'app=backstage'
-    github.com/project-slug: tpoingt/tutorial
+    'github.com/project-slug': 'tpoingt/tutorial'
 spec:
   type: service
   owner: user:guest
