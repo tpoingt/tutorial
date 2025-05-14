@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: "Test"
   annotations:
-    'backstage.io/kubernetes-namespace': backstage
-    'backstage.io/kubernetes-label-selector': 'app=backstage'
+    'backstage.io/kubernetes-namespace': app-ns
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=tutorial-podinfo'
     'github.com/project-slug': 'tpoingt/tutorial'
     backstage.io/linguist: 'https://github.com/tpoingt/tutorial'
 spec:
